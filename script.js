@@ -189,7 +189,7 @@ function redirectToResults(data) {
   localStorage.setItem("lastSearch", JSON.stringify(data))
 
   // Redirect to P4.html
-  window.location.href = `p9.html?${params.toString()}`
+  window.location.href = `P9.html?${params.toString()}`
 }
 
 // Modal handlers
